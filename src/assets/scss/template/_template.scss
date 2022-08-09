@@ -1,0 +1,666 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+body,
+html,
+.body {
+  background:white;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #c42e2e;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3b5998 !important;
+  border-color: #3b5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #db4a39 !important;
+  border-color: #db4a39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+.cta1{
+  background: #13191f;
+  background-color: #13191f;
+  width: 97% !important;
+}
+.cta2{
+  background: #cecccd;
+  background-color: #cecccd;
+  width: 97% !important;
+}
+.cta-text{
+  color: #fff;
+  padding-top: 20px;
+}
+.cta-text2{
+  color: rgb(61, 60, 60);
+  padding-top: 20px;
+}
+.LINKS {
+  width:90PX !important;
+}
+.text-center a{
+  color: #13191f;
+  padding-left: 20PX;
+  padding-right: 20PX;
+  font-weight: 500;
+  font-size: 20PX;
+}
+
+.menu{
+ align-items: center;
+}
+
+.menu .item a{
+  color: #13191f;
+    padding-left: 20PX;
+    padding-right: 20PX;
+    font-weight: 500;
+    font-size: 20PX;
+}
+
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    .text-center a {
+      display: block;
+      padding-top: 10px;
+    }
+      .text-center a{
+        margin-left: 25%;}
+      p.text-center{
+        margin: 0px !important;
+      }
+  }
+  @media only screen and (max-width: 616px){
+table.body img {
+    width: 100%;
+    height: auto;
+}
+}
+
+// ---------kingsize-------
+
+// .king-menu .menu-item-single{
+//   color: #13191f;
+//   padding-left: 0PX;
+//   padding-right: 0PX;
+//   font-weight: 500;
+//   font-size: 20PX;
+// }
+
+// .king-menu{
+//   margin-left: 0px !important;
+// }
+
+
+
+
+// -------------------netflix css-----------------
+
+// .white-bg{
+
+//   background-color: #ffffff !important;
+//   background: #ffffff !important;
+
+// }
+// .foraric p{
+//   color: #000000;
+//     font-family: NetflixSans-Bold,Helvetica,Roboto,Segoe UI,sans-serif;
+//     font-weight: 700;
+//     font-size: 18px;
+//     line-height: 22px;
+//     letter-spacing: -0.35px;
+// }
+// .logo-netflix{
+//   height: 44px !important;
+// }
+// .logo-netflix{
+//   @media only screen and (max-width: #{$global-breakpoint}) {
+//     width: 30px !important;
+//   }
+// }
+// .hero-image-netflix{
+//   border-radius: 5px 5px 0px 0px !important;
+// }
+// .feat-img{
+//   border-radius: 5px;
+// }
+// .container-netflix p{
+//   color: rgb(255, 255, 255);
+// }
+// .container-netflix a{
+//   color: rgb(255, 255, 255) !important;
+//   text-decoration: underline;
+// }
+// .container-netflix{
+//   background: #030303 !important;
+//   border-color: #000000;
+// }
+// .h1-netflix{
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 22px;
+//   letter-spacing: -0.35px;
+//   padding-top: 20px;
+// }
+// .row-netflix .p-netflix{
+//   border: 1px solid #434344;
+//     color: #f5f5f1;
+//     background-color: #434344;
+//     padding: 2px 4px 2px 4px;
+//     border-radius: 4px;
+//     text-align: center;
+//     font-size: 12px;
+// }
+
+// td.large-1, th.large-1{
+//   padding: 0px 2px 10px 2px;
+// }
+
+// td.large-2, th.large-2{
+//   padding-left: 0px;
+//   padding-right: 0px;
+// }
+// td.large-6, th.large-6{
+//   padding-right: 2px;
+// }
+// td.large-6, th.large-6{
+//   padding-left: 2px;
+// }
+
+
+// .h2-netflix p{
+//   text-align: center;
+// }
+// .row-netflix .dot{
+//   height: 4px;
+//   width: 4px;
+//   background-color: rgb(233, 17, 17);
+//   border-radius: 50%;
+//   display: inline-block;
+//   margin-top: 6px;
+// }
+
+// .h2-netflix p{
+//   color: #f5f5f1;
+//   padding-top: 0px;
+//   font-family: NetflixSans-Bold,Helvetica,Roboto,Segoe UI,sans-serif;
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: 17px;
+//   letter-spacing: -0.2px;
+// }
+// .about{
+//   color: #f5f5f1;
+//     padding-top: 0px;
+//     font-size: 14px;
+//     line-height: 18px;
+//     letter-spacing: -0.25px;
+//     font-family: NetflixSans-Light,Helvetica,Roboto,Segoe UI,sans-serif;
+//     font-weight: 300;
+// }
+
+// .about-gray{
+//   color: #808080 !important;
+//   font-family: NetflixSans-Bold,Helvetica,Roboto,Segoe UI,sans-serif;
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: 17px;
+//   letter-spacing: -0.2px;
+// }
+// .lang .pt-5{
+//   padding-top: 20px !important;
+// }
+// .chair{
+//   width: 50px;
+// }
+// .chair-content p{
+//   color: #ffffff;
+//     padding-left: 12px;
+//     font-size: 14px;
+//     line-height: 18px;
+//     letter-spacing: -0.25px;
+//     font-family: NetflixSans-Light,Helvetica,Roboto,Segoe UI,sans-serif;
+//     font-weight: 300;
+// }
+// .chair-text p{
+//   text-align: left !important;
+// }
+// .button- button{
+//   border: solid 2px #e50914;
+//     border-radius: 4px;
+//     text-decoration: none;
+//     width: 100%;
+//     border-spacing: 0;
+// }
+// .button- .button{
+//   padding: 53px !important;
+
+// }
+// .button- .add span{
+//   background-color: #414141;
+//   border: solid 1px #414141;
+//   font-family: NetflixSans-Bold,Helvetica,Roboto,Segoe UI,sans-serif;
+//   font-weight: 700;
+//   color: rgb(255,255,255);
+//   border-radius: 4px;
+//   text-decoration: none;
+//   text-align: center;
+//   padding: 13px 0 13px 0;
+//   width: 100%;
+//   font-size: 14px;
+//   line-height: 17px;
+//   letter-spacing: -0.2px;
+// }
+// .trailer img{
+//   border-radius: 5px;
+// }
+// .row-netflix-r p{
+//   padding-top: 20px;
+//   color: #000000;
+//   font-family: NetflixSans-Bold,Helvetica,Roboto,Segoe UI,sans-serif;
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 22px;
+//   letter-spacing: -0.35px;
+// }
+// table.button table td{
+//   background-color: #e50914;
+//   border: none 1px #e50914;
+//   font-family: NetflixSans-Bold,Helvetica,Roboto,Segoe UI,sans-serif;
+//   font-weight: 700;
+//   color: rgb(255,255,255);
+//   border-radius: 4px;
+//   text-decoration: none;
+//   text-align: center;
+//   padding: 16px 0 16px 0;
+//   width: 100%;
+//   font-size: 14px;
+//   line-height: 17px;
+//   letter-spacing: -0.2px;
+// }
+// .rec-add-img img{
+//   border-radius: 5px;
+// }
+
+
+
+
+
+// ---------Fashion Email--------
+
+// .white-bg{
+//    background-color: #ffffff !important;
+//    background: #ffffff !important;
+//  }
+//  .head .logo{
+//   width: 220px;
+//  }
+// menu .item2{
+//   letter-spacing: 1px!important;
+//     text-indent: 1px!important;
+//     color: #000001;
+//     text-decoration: none;
+//     text-transform: uppercase;
+//     border-top: 20px solid #ffffff;
+//     border-bottom: 20px solid #ffffff;
+//     border-right: 10px solid #ffffff;
+//     border-left: 0 solid #ffffff;
+// }
+
+// .menu-item{
+//   font-size: 12px;
+//   font-family: Helvetica,Arial,sans-serif;
+// }
+
+// .button p{
+//   font-size: 12px;
+//     font-family: Helvetica,Arial,sans-serif;
+//     color: #ffffff;
+//     text-indent: 1px;
+//     letter-spacing: 1px;
+//     text-decoration: none;
+//     padding: 0px 0 0px 0;
+//     display: inline-block;
+//     text-transform: uppercase;
+//     line-height: 1;
+// }
+// .shop p{
+//   font-size: 20px;
+//   letter-spacing: 1px;
+//   padding: 10px 70px 10px 70px;
+// }
+// .icon img{
+//   height: 25px;
+// }
+
+// .button-cta{
+//  background-color: #ffffff !important;
+//  background: #ffffff !important;
+//  border: 1px solid #000001;
+//  padding: 20px 0 20px 0;
+
+// }
+
+// .button-cta p{
+//   font-size: 12px;
+//     font-family: Helvetica,Arial,sans-serif;
+//     color: #000001;
+//     text-decoration: none;
+//     display: inline-block;
+//     width: 160px;
+//     text-align: center;
+//     font-weight: bold;
+// }
+
+// .item2{
+//   @media only screen and (max-width: #{$global-breakpoint}) {
+//     padding: 5px 0px 5px 0px !important;
+//     }
+// }
+
+// .image-row .columns img{
+//   @media only screen and (max-width: #{$global-breakpoint}) {
+//     height: 15px !important;
+//   }
+// }
+
+// --------Fashion Ecomm --------
+
+table.button {
+  width: auto;
+  margin: 0 0 0px 0;
+}
+
+.items-ecom p{
+  text-align: center;
+  font-family: Helvetica,arial,sans-serif;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 1.2px !important;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  width: 90%;
+
+}
+.items-ecom h2{
+  text-align: center;
+  font-family: Helvetica,arial,sans-serif;
+  font-size: 15px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  padding-top: 10px;
+
+}
+.items-ecom{
+  padding: 10px 0px 0px 0px !important;
+}
+.padding-sides{
+  padding: 0px 20px 0px 20px !important;
+}
+
+.white-bg{
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+}
+.head .logo{
+ width: 220px;
+}
+menu .item2{
+ letter-spacing: 1px!important;
+   text-indent: 1px!important;
+   color: #000001;
+   text-decoration: none;
+   text-transform: uppercase;
+   border-top: 20px solid #ffffff;
+   border-bottom: 20px solid #ffffff;
+   border-right: 10px solid #ffffff;
+   border-left: 0 solid #ffffff;
+}
+
+.menu-item{
+ font-size: 12px;
+ font-family: Helvetica,Arial,sans-serif;
+}
+
+.button p{
+ font-size: 12px;
+   font-family: Helvetica,Arial,sans-serif;
+   color: #ffffff;
+   text-indent: 1px;
+   letter-spacing: 1px;
+   text-decoration: none;
+   padding: 0px 0 0px 0;
+   display: inline-block;
+   text-transform: uppercase;
+   line-height: 1;
+}
+.shop p{
+ font-size: 20px;
+ letter-spacing: 1px;
+ padding: 10px 70px 10px 70px;
+}
+.icon img{
+ height: 25px;
+}
+
+.button-cta{
+background-color: #ffffff !important;
+background: #ffffff !important;
+border: 1px solid #000001;
+padding: 20px 0 20px 0;
+
+}
+
+.button-cta p{
+ font-size: 12px;
+   font-family: Helvetica,Arial,sans-serif;
+   color: #000001;
+   text-decoration: none;
+   display: inline-block;
+   width: 160px;
+   text-align: center;
+   font-weight: bold;
+}
+
+.item2{
+ @media only screen and (max-width: #{$global-breakpoint}) {
+   padding: 5px 0px 5px 0px !important;
+   }
+}
+
+.image-row .columns img{
+ @media only screen and (max-width: #{$global-breakpoint}) {
+   height: 15px !important;
+ }
+}
+
+
+
+
+// -------intuit mint-----
+
+// .white-bg{
+//   background-color: #ffffff !important;
+//   background: #ffffff !important;
+// }
+// .bg-gray{
+//   background-color: #c0f0e4;
+//   background: #c0f0e4;
+// }
+// .bg-lightgray{
+//  background-color: #e6fbf6;
+//  background: #e6fbf6;
+//  border-bottom: .50px #000000 solid;
+// }
+// .head-logo img{
+//   width: 102px;
+// }
+// .padding{
+//   padding: 30px 0px 30px 40px !important;
+// }
+// .head h1{
+//   font-size: 34px;
+//     line-height: 42px;
+//     font-family: 'Avenir Next',Avenir,Helvetica,sans-serif;
+//     color: #342b50;
+//     font-weight: bold;
+// }
+// .head p{
+//   font-size: 18px;
+//     line-height: 26px;
+//     font-family: 'Avenir Next',Avenir,Helvetica,sans-serif;
+//     color: #383940;
+//     font-weight: 500;
+// }
+// .head img{
+// width: 238px;
+// }
+// .hero-img-right img{
+//   width: 263px;
+// }
+// .body .btn{
+//   width: 238px;
+// }
+// .body .callout{
+//   width: 406px;
+// }
+// .body p{
+//   font-size: 16px;
+//     line-height: 22px;
+//     font-family: 'Avenir Next',Avenir,Helvetica,sans-serif;
+//     color: #393a3d;
+//     font-weight: 500;
+//     max-width: 470px;
+// }
+// .body-sec p{
+//   text-align: center;
+// }
+// .padding-body{
+//   padding: 30px;
+// }
+// .outlets{
+//   margin: 20px 0px 20px 0px;
+// }
+// .icon-padding{
+// padding: 0px 10px 0px 10px;
+// width: 90px;
+// }
+// .body-sec p{
+//   @media only screen and (max-width: #{$global-breakpoint}) {
+//     font-size: 32px;
+//     line-height: 42px;
+//   }
+// }
+// .head h1{
+//   @media only screen and (max-width: #{$global-breakpoint}) {
+//     font-size: 32px;
+//     line-height: 42px;
+//     text-align: center;
+//   }
+// }
+// .head p{
+//   @media only screen and (max-width: #{$global-breakpoint}) {
+//     font-size: 32px;
+//     line-height: 42px;
+//     text-align: center;
+//   }
+// }
+// .footer-menu{
+//   text-align: center;
+//   align-items: center;
+  
+// }
+
+// --------spice newsletter------
+
+// .margin-card{
+//   margin-top: 30px !important;
+// }
+// .padding-top-newsletter{
+//   padding-top: 30px;
+// }
+// .title-tag{
+//   padding: 12px 0px 5px 0px !important;
+//   font-weight: bold;
+// }
+// h1{
+//   font-family: Arial, Helvetica, sans-serif;
+//   font-size: 26px;
+//   letter-spacing: 1px;
+//   padding: 30px 0px 15px 30px;
+// }
+// .body-text{
+//   font-family: Roboto, RobotoDraft, Arial, sans-serif;
+//   font-size: 18px;
+//   line-height: 30px;
+//   letter-spacing: .7px;
+//   padding-left: 30px;
+//   padding-right: 30px;
+// }
+// .sm-text{
+//   font-family: Roboto, RobotoDraft, Arial, sans-serif;
+//   font-size: 15px;
+// }
+// a{
+//   font-size: 18px;
+//   padding: 19px 20px 19px 20px;
+//   background: #e5722d !important;
+//   border-radius: 5px;
+//   color: #ffffff;
+//   font-family: Arial, Helvetica, sans-serif;
+// }
+// table.button table td{
+//   border: none;
+
+// }
+
+// .logo img{
+//   width: 474px !important;
+// }
+// .contain{
+//   border-radius: 5px;
+// }
+// .padding-left{
+//   padding-left: 30px;
+// }
